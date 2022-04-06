@@ -1,0 +1,150 @@
+html{
+    background-color: #767676;
+}
+
+.m1{
+    border: 10px solid red;
+    box-shadow: 10px 10px 0px darkviolet;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.main{
+    width: 30vw;
+    height: 20vh;
+    color: red;
+    text-shadow: 2px 2px 0px darkred;
+    line-height: 40px;
+    font-style: italic;
+}
+.item1{
+    margin: auto;
+}
+
+.border{
+    width:1490px;
+    height:770px;
+    border: 10px solid green;
+}
+
+.main1{
+    width: 20vw;
+    height: 40vh;
+    color: black;
+    text-shadow: 2px 1px 0px darkviolet;
+    margin-bottom: 100px;
+}
+
+.one{
+    float: left;
+    position: relative;
+    left: 10px;
+    top:10px;
+    line-height: 50px;
+}
+
+.two{
+    float: right;
+    position: relative;
+    right: 100px;
+    top:10px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.three{
+    clear: both;
+    float: left;
+    position: relative;
+    left: 10px;
+}
+
+.four{
+    float: right;
+    position: relative;
+    right: 100px;
+}
+
+label{
+    font-weight: bold;
+}
+
+::placeholder{
+    text-align: center;
+    color: black;
+}
+
+button{
+    background-color: red;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.grid-container{
+    width: 800px;
+    height: 700px;
+    border: 10px solid darkmagenta;
+    background-color: green;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.item-part{
+    background-color: #EDE280;
+    font-style: italic;
+    line-height: 40px;
+}
+.grid-item1{
+    width: 395px;
+    height: 300px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.grid-item2{
+    width: 395px;
+    height: 300px;
+    float: right; 
+    margin-bottom: 20px;
+}
+
+.grid-item3{
+    clear: both;
+    float: left;
+    width: 800px;
+    height: 290px;
+}
+
+.part{
+    width: 500px;
+    height: 65px;
+    border: 10px solid red;
+    border-radius: 25px;
+    box-shadow: 10px 10px 0px darkmagenta;
+    background-color: rgb(88, 206, 52);
+    color: red;
+    padding: 20px 10px 0px 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    position: fixed;
+    top: 590px;
+    left: 400px;
+}
+
+.sub-part1{
+    float: left;
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.sub-part2{
+    float: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
